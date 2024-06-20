@@ -33,8 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures{dataBinding=true
+    }
 }
-
 dependencies {
 
     implementation(libs.androidx.core.ktx)
